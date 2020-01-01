@@ -19,7 +19,7 @@ Test results:
 
 	OS			|	Window10	|	Linux
 	Python3 + FireFox	|	passed		|	passed
-	Python3 + Chromel	|	passed		|	haven't installed the chrome 
+	Python3 + Chrome	|	passed		|	haven't installed the chrome 
 ------------------------------------------------------------------------
 
 I didn't tested in IE and Edge, because I rarely use that 2 browers.
