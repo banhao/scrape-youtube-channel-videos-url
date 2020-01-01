@@ -31,6 +31,6 @@ user_data = driver.find_elements_by_xpath('//*[@id="video-title"]')
 for i in user_data:
 	print(i.get_attribute('href'))
 	link = (i.get_attribute('href'))
-	f = open('UC6mIndJxqBQThj40BuQicdA-'+dt+'.list', 'a+')
+	f = open(channelid+'-'+dt+'.list', 'a+')
 	f.write(link + '\n')
 f.close
