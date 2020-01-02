@@ -23,3 +23,11 @@ Test results:
 ------------------------------------------------------------------------
 
 I didn't tested in IE and Edge, because I rarely use that 2 browers.
+
+If you want to download all the videos you can use youtube-dl:
+	
+	https://github.com/ytdl-org/youtube-dl
+
+	youtube-dl -a CBCtv-202001011120.list
+	
+Notice: If you run the Python script in Windows, the end line is CRLF, you need use dos2unix to change it to UNIX format before you start the next steps in Linux.
