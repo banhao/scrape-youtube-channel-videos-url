@@ -5,7 +5,7 @@ If you want to get all the video links from CBC channel, so just run the command
 
 	python3 scrape-youtube-channel-videos-url.py https://www.youtube.com/user/CBCtv/videos
 	
-	example result CBCtv-202001011120.list was uploaded.
+Example result CBCtv-202001011120.list was uploaded.
 
 This can be run in Windows or Linux. but don't use the 'root' to run the script in Linux, because seems in Linux you can't use 'root' account to open a browser.
 
