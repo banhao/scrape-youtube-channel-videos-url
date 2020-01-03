@@ -24,7 +24,7 @@ Test results:
 	Python3 + Chrome	|	passed		|	haven't installed the chrome 
 ------------------------------------------------------------------------
 
-I didn't tested in IE and Edge, because I rarely use that 2 browers.
+I didn't test in IE and Edge, because I rarely use that 2 browers.
 
 If you want to download all the videos you can use youtube-dl:
 	
