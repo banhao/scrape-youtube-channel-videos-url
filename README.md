@@ -6,28 +6,22 @@ scrape-youtube-channel-videos-url.py is used to grab the video links from a YouT
 How to use it:
 If you want to get all the video links from CBC channel, so just run the command like following:
 
-	python3 scrape-youtube-channel-videos-url.py https://www.youtube.com/user/CBCtv/videos
+	python3 scrape-youtube-channel-videos-url.py -b firefox -u "https://www.youtube.com/@CBC/videos"
+        python3 scrape-youtube-channel-videos-url.py -b edge -u "https://www.youtube.com/@CBC/videos"
+	python3 scrape-youtube-channel-videos-url.py -b chrome -u "https://www.youtube.com/@CBC/videos"
 	
 Example result CBCtv-202001011120.list was uploaded.
 
 This can be run in Windows or Linux. but don't use the 'root' to run the script in Linux, because seems in Linux you can't use 'root' account to open a browser.
 
-Please install the "selenium" first.
-	
-	https://pypi.org/project/selenium/
-
-And you also need to download the browser drivers
-	
-	https://selenium-python.readthedocs.io/installation.html#drivers
-
 Test results:
 
-	OS			|	Window10	|	Linux
-	Python3 + FireFox	|	passed		|	passed
-	Python3 + Chrome	|	passed		|	haven't installed the chrome 
-------------------------------------------------------------------------
+	OS	  |	Window10 + python 3.11.2 + selenium 4.8.2 + webdriver-manager 4.0.1	|	    Linux + python 3.9.2 + selenium 4.20.0 + webdriver-manager 4.0.1
+	Python3   |	passed	Firefox 125.0.2 (64-bit)                                        |	    passed  Firefox 125.0.3 (64-bit) 
+	Python3   |     passeed Edge 124.0.2478.80 (64-bit)                                     |           passed  Edge 124.0.2478.97 (64-bit)
+        Python3   | 	passed	Chrome 124.0.6367.202 (64-bit)	                                |	    passed  Chrome 124.0.6367.201 (64-bit)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-I didn't test in IE and Edge, because I rarely use that 2 browers.
 
 If you want to download all the videos you can use youtube-dl:
 	
